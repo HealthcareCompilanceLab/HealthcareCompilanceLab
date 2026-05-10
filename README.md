@@ -1,4 +1,4 @@
-[![Healthcare Compliance Checker](https://github-production-user-asset-6210df.s3.amazonaws.com/68139513/237881618-7582da0c-f3a0-4d4f-afac-a7801e5596f0.jpg)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
+[![Healthcare Compliance Checker](https://www.news-medical.net/image-handler/ts/20240308012538/ri/750/src/images/Article_Images/ImageForArticle_24645_17099223367073417.jpg)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
 
 <h1 style="color: #44AEFB;">🏥 Healthcare Compilace Lab</h1>
 <h3 style="color: #44AEFB;>Healthcare Compliance & Cybersecurity Specialist</h3>
