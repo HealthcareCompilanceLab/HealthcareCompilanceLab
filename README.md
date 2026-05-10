@@ -17,11 +17,19 @@
 
 ---
 
-## 👋 About Me
+## 👋 About this Project
 
-I'm a **healthcare compliance and cybersecurity specialist** passionate about building secure, compliant healthcare systems that protect patient data and organizational integrity. With expertise in translating complex regulatory requirements (HIPAA, NIST, PHIPA) into automated technical solutions, I develop proof-of-concept tools and frameworks that demonstrate how modern security practices can safeguard healthcare environments.
 
-My work focuses on:
+The Healthcare Data Security Compliance Checker is a cybersecurity proof-of-concept tool designed to evaluate healthcare system security configurations against major compliance frameworks including:
+
+- HIPAA
+- PHIPA
+- NIST SP 800-53
+
+The project focuses on bridging the gap between regulatory compliance and technical security implementation through automated evidence-based validation.
+
+The system analyzes simulated system configurations, authentication settings, logs, and security indicators to:
+
 - 🔐 **Security Architecture**: Designing compliant healthcare systems
 - 🤖 **Compliance Automation**: Building tools to validate and monitor regulatory adherence
 - 📊 **Risk Assessment**: Identifying and prioritizing security vulnerabilities
