@@ -1,6 +1,6 @@
-[![Healthcare Compliance Checker](https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
+[![Healthcare Compliance Checker](https://tenor.com/view/abster-coded-abster-coded-abstract-computer-gif-15361456555161310563)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
 
-<h1 align="center">🏥 Hartej Singh Dhanjal</h1>
+<h1 align="center">🏥 Healthcare Compilace Lab</h1>
 <h3 align="center">Healthcare Compliance & Cybersecurity Specialist</h3>
 
 <p align="center">
