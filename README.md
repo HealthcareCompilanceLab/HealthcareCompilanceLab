@@ -1,8 +1,8 @@
 [![Healthcare Compliance Checker](https://media.tenor.com/1S7bWTL8VWMAAAAi/abster-coded.gif)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
 
-<h1 align="center">🏥 Healthcare Compilace Lab</h1>
-<h3 align="center">Healthcare Compliance & Cybersecurity Specialist</h3>
-
+<h1 style="color: #44AEFB;">🏥 Healthcare Compilace Lab</h1>
+<h3 style="color: #44AEFB;>Healthcare Compliance & Cybersecurity Specialist</h3>
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/1S7bWTL8VWMAAAAi/abster-coded.gif">
 <p align="center">
   <em>Transforming healthcare security through compliance automation, risk assessment, and data protection</em>
 </p>
