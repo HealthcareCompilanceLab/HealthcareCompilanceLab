@@ -1,4 +1,4 @@
-[![Healthcare Compliance Checker](<div class="tenor-gif-embed" data-postid="15361456555161310563" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/abster-coded-abster-coded-abstract-computer-gif-15361456555161310563">Abster Coded Sticker</a>from <a href="https://tenor.com/search/abster-stickers">Abster Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
+[![Healthcare Compliance Checker](https://media.tenor.com/1S7bWTL8VWMAAAAi/abster-coded.gif)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
 
 <h1 align="center">🏥 Healthcare Compilace Lab</h1>
 <h3 align="center">Healthcare Compliance & Cybersecurity Specialist</h3>
