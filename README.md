@@ -125,43 +125,18 @@ This project demonstrates automated compliance validation for healthcare systems
 
 ---
 
-## 🏆 Notable Contributions
 
-- **Lead Developer** - Healthcare Data Security Compliance Checker (Capstone Project)
-- **Project Manager** - Coordinated cross-functional team on healthcare compliance initiatives
-- **Compliance Architect** - Translated HIPAA/NIST requirements into technical controls
-- **Security Researcher** - Investigated healthcare threat landscapes and risk assessment methodologies
-
----
-
-## 📚 Education & Certifications
-
-- **Capstone Project Focus**: Healthcare Security Compliance & Automation
-- **Core Competencies**: Cybersecurity, Healthcare IT, Compliance Management, Risk Assessment
-
----
-
-## 🤝 Let's Connect
-
-I'm always interested in discussing healthcare security, compliance automation, and how technology can protect patient data. Feel free to reach out!
-
-- 💼 **LinkedIn**: [linkedin.com/in/hartej-singh-dhanjal](https://linkedin.com)
-- 📧 **Email**: [Your Email Here]
-- 🐙 **GitHub**: [@HealthcareCompilanceLab](https://github.com/HealthcareCompilanceLab)
-- 🌐 **Website**: [Your Portfolio/Blog Here]
-
----
 
 ## 💬 Let's Collaborate
 
-I'm open to collaboration on:
+We are open to collaboration on:
 - Healthcare compliance and security projects
 - HIPAA/NIST implementation guidance
 - Compliance automation tools
 - Healthcare data governance initiatives
 - Security research and proof-of-concepts
 
-If you're working on healthcare security challenges, I'd love to discuss how I can help!
+If you're working on healthcare security challenges, we'd love to discuss how we can help!
 
 ---
 
