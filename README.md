@@ -20,22 +20,33 @@
 ## 👋 About this Project
 
 
-The Healthcare Data Security Compliance Checker is a cybersecurity proof-of-concept tool designed to evaluate healthcare system security configurations against major compliance frameworks including:
+We are 4th-year Information Sciences students at **Sheridan College**, with a strong interest in cybersecurity, compliance, and healthcare data protection. We are developing the **Healthcare Data Security Compliance Checker** as part of our capstone project to combine our academic learning with a real-world security and compliance challenge.
 
-- HIPAA
-- PHIPA
-- NIST SP 800-53
+Through this capstone, our team will explore how healthcare compliance frameworks such as **HIPAA**, **PHIPA**, and **NIST SP 800-53** can be applied in practical technical validation. Our goal is to create a proof-of-concept that demonstrates how security controls, compliance requirements, and risk assessment can work together to improve the protection of sensitive healthcare information.
 
-The project focuses on bridging the gap between regulatory compliance and technical security implementation through automated evidence-based validation.
+This project reflects our collaborative effort in research, compliance mapping, technical design, and implementation. It represents our shared commitment to building practical solutions that connect information science, cybersecurity, and regulatory awareness.
 
-The system analyzes simulated system configurations, authentication settings, logs, and security indicators to:
+### Our Capstone Focus
 
-- 🔐 **Security Architecture**: Designing compliant healthcare systems
-- 🤖 **Compliance Automation**: Building tools to validate and monitor regulatory adherence
-- 📊 **Risk Assessment**: Identifying and prioritizing security vulnerabilities
-- 🛡️ **Healthcare Data Protection**: Ensuring patient confidentiality and data integrity
+- Healthcare cybersecurity
+- Compliance validation
+- Risk assessment
+- Security evidence analysis
+- Automated reporting and monitoring
 
----
+### Our Goal
+
+Our goal is to demonstrate how academic knowledge in information science and cybersecurity can be applied to real-world healthcare security challenges through innovation, teamwork, and technical problem-solving.
+
+### Team Members
+
+- **Hartej Singh Dhanjal** — Project Manager
+- **Carleen Gyamfi** — Research & Compliance Lead
+- **Kasinadhan Udayakumar** — Technical Lead
+
+### Purpose
+
+This capstone project was created for educational and research purposes. It highlights our team's interest in using information science and cybersecurity principles to support healthcare compliance and data security.
 
 ## 🎯 Expertise
 
