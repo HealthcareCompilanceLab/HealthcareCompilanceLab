@@ -1,7 +1,6 @@
 [![Healthcare Compliance Checker](https://www.news-medical.net/image-handler/ts/20240308012538/ri/750/src/images/Article_Images/ImageForArticle_24645_17099223367073417.jpg)](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
 
 <h1 style="color: #44AEFB;"align="left">🏥 Healthcare Compilace Lab</h1>
-<img align="right" alt="Coding" width="400" src="https://media.tenor.com/1S7bWTL8VWMAAAAi/abster-coded.gif">
 <h3 style="color: #44AEFB;>Healthcare Compliance & Cybersecurity Specialist</h3>
 
 <p align="center">
@@ -19,7 +18,7 @@
 ---
 
 ## 👋 About this Project
-
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/1S7bWTL8VWMAAAAi/abster-coded.gif">
 
 We are 4th-year Information Sciences students at **Sheridan College**, with a strong interest in cybersecurity, compliance, and healthcare data protection. We are developing the **Healthcare Data Security Compliance Checker** as part of our capstone project to combine our academic learning with a real-world security and compliance challenge.
 
