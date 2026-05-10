@@ -92,7 +92,7 @@ This project demonstrates automated compliance validation for healthcare systems
 
 **Impact:** Demonstrates how regulatory requirements can be translated into automated technical controls
 
-**Repository:** [healthcare-compliance-checker](https://github.com/HealthComplianceLab/healthcare-compliance-checker)
+**Repository:** [healthcare-compliance-checker](https://github.com/HealthcareCompilanceLab/healthcare-compliance-checker)
 
 ---
 
