@@ -257,7 +257,7 @@ A key design goal in Phase 2 is to map each technical control to an understandab
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Cyber%20Security-My%20Passion-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cyber%20Security-Our%20Passion-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Open%20to%20Opportunities-Yes-brightgreen?style=for-the-badge" />
 </p>
 
