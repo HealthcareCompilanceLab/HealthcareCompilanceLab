@@ -136,6 +136,20 @@ The main feedback provided to our group by Professor Syed Tanbeer was to:
 - Update GitHub weekly.
 
 ---
+## Phase 2 Direction
+
+As we move into Phase 2, the goal is to improve the prototype into a more complete and evidence-based compliance checker.
+
+Planned improvements include:
+
+- Expanding the control bank with more detailed fields such as control ID, category, expected value, evidence, risk level, and remediation.
+- Mapping each technical check to healthcare security areas in a more structured way.
+- Improving the questionnaire so it can be used by both healthcare staff and technical users.
+- Adding explanations for common cyber risks such as weak passwords, missing MFA, failed logins, suspicious IP activity, missing logs, and unencrypted backups.
+- Strengthening the system diagram and documentation.
+- Updating GitHub on a weekly basis.
+
+---
 
 ## Standards and Control Mapping
 
