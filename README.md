@@ -5,8 +5,8 @@
 <h1 align="center">🏥 Healthcare Compliance Lab</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Healthcare%20Compliance-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Cybersecurity%20%26%20Data%20Protection-teal?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Project-Healthcare%20Data%20Security-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Cybersecurity%20%26%20Compliance-teal?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Frameworks-HIPAA%20%7C%20PHIPA%20%7C%20NIST-purple?style=for-the-badge" />
 </p>
 
@@ -17,8 +17,10 @@
 <p align="center">
   <a href="#about-this-project">About</a> •
   <a href="#project-overview">Overview</a> •
-  <a href="#phase-1-completion">Phase 1</a> •
-  <a href="#phase-2-direction">Phase 2</a> •
+  <a href="#why-this-project-matters">Motivation</a> •
+  <a href="#how-the-tool-works">Method</a> •
+  <a href="#standards-and-control-mapping">Controls</a> •
+  <a href="#project-status">Status</a> •
   <a href="#weekly-milestones">Milestones</a> •
   <a href="#group-roles-and-responsibilities">Team</a>
 </p>
@@ -31,9 +33,9 @@
   <img src="https://media.tenor.com/1S7bWTL8VWMAAAAi/abster-coded.gif" alt="Coding GIF" width="320">
 </p>
 
-We are fourth-year Information Sciences students at **Sheridan College** with a strong interest in cybersecurity, compliance, and healthcare data protection. As part of our capstone project, we are developing the **Healthcare Data Security Compliance Checker** to connect academic learning with a real-world healthcare security challenge.
+We are fourth-year Information Sciences students at **Sheridan College** with a strong interest in cybersecurity, compliance, and healthcare data protection. As part of our capstone project, we are developing the **Healthcare Data Security Compliance Checker** to connect academic learning with a practical healthcare security challenge.
 
-The project explores how healthcare compliance frameworks such as **HIPAA**, **PHIPA**, **ISO/IEC 27001**, and **NIST SP 800-53A** can support practical technical validation. Our goal is to demonstrate how security controls, compliance requirements, and risk assessment can work together to improve the protection of sensitive healthcare information.
+The project is designed as a proof-of-concept that helps evaluate whether important security safeguards are in place in healthcare environments. It does not process or store live patient health information. Instead, it focuses on security-related indicators, compliance validation, and evidence-based reporting.
 
 ### Team Members
 - **Hartej Singh Dhanjal** — Project Manager
@@ -44,9 +46,9 @@ The project explores how healthcare compliance frameworks such as **HIPAA**, **P
 
 ## Project Overview
 
-The Healthcare Data Security Compliance Checker has been developed to help healthcare organizations evaluate whether important technical safeguards are properly implemented. The tool does **not** process or store live patient health information.
+The Healthcare Data Security Compliance Checker is intended to help healthcare organizations assess whether core technical safeguards are properly implemented. The tool reviews selected system configurations and security practices and compares them against expected healthcare security controls.
 
-Instead, it checks whether selected system configurations and security practices align with healthcare security expectations. The tool runs in the background while healthcare professionals access PHI systems and collects security-related metadata such as:
+The system monitors security-related metadata such as:
 
 - Login attempts
 - MFA status
@@ -56,38 +58,28 @@ Instead, it checks whether selected system configurations and security practices
 - Backup protection
 - Suspicious access indicators
 
-It then evaluates these signals against healthcare security control requirements and generates plain-language and technical reports showing:
+The tool then generates reports that show:
 
 - Risk level
 - Compliance gaps
-- Evidence
+- Evidence collected
 - Remediation recommendations
 
 ---
 
-## Core Safeguard Areas
+## Why This Project Matters
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Access%20Control-Navy-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Encryption%20%26%20Transmission-Security-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/Logging%20%26%20Audit-Controls-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Backup%20%26%20Contingency-Planning-red?style=flat-square" />
-</p>
+Healthcare organizations handle sensitive personal health information, which means even small weaknesses in access control, logging, or encryption can create serious privacy and security risks. This project addresses the gap between high-level regulatory expectations and the technical checks used in real systems.
 
-- Access control
-- Encryption and transmission security
-- Logging and audit controls
-- Backup and contingency planning
+The project is especially relevant for smaller healthcare organizations that may not have access to large enterprise compliance platforms. A lightweight validation tool can help them understand control gaps and prioritize corrective actions.
 
 ---
 
-## Phase 1 Completion
+## How the Tool Works
 
-During Phase 1, we completed the original project idea, proposal, research, prototype concept, and early implementation. The project proposal identified the gap between regulatory requirements and real-world technical implementation in healthcare cybersecurity.
+The current prototype is a rule-based compliance checker written in Python. It evaluates predefined technical controls using system input data and weighted scoring logic.
 
-We also outlined how frameworks such as **HIPAA**, **PHIPA**, **ISO/IEC 27001**, and **NIST SP 800-53A** support structured evaluation of healthcare security controls.
-
-Our group also developed an initial Python-based prototype. The prototype already evaluates selected controls including:
+The tool currently includes checks for:
 
 - MFA
 - TLS/HTTPS
@@ -95,33 +87,31 @@ Our group also developed an initial Python-based prototype. The prototype alread
 - Encrypted backups
 - Password policy strength
 
-The current code uses:
+The system also includes:
 
 - A control bank
-- System data
-- Weighted risk scoring
 - Attack detection logic
+- Risk scoring
 - HTML report generation
+- Scenario-based testing
 
-Phase 1 also included testing different scenarios. In Week 14, the prototype was tested by changing user responses across access control, encryption, audit logging, backup protection, and suspicious activity indicators to evaluate how the system behaved under stronger and weaker compliance conditions.
-
----
-
-## Feedback Received
-
-As we move forward in the Spring/Summer 2026 semester, we are focusing on improving the project's technical and compliance alignment.
-
-The main feedback provided by Professor Syed Tanbeer was to:
-
-- Explain how configurations are evaluated against HIPAA and NIST.
-- Map configurations to real standards.
-- Make the system accessible to medical staff.
-- Include awareness of common cyberattacks.
-- Create an overall system diagram.
+The output is designed to be useful for both technical users and non-technical healthcare staff by combining plain-language summaries with more detailed technical findings.
 
 ---
 
-## Example Control Map
+## Standards and Control Mapping
+
+The project uses healthcare security frameworks as reference points for mapping technical checks to regulatory expectations. These include **HIPAA**, **PHIPA**, **ISO/IEC 27001**, and **NIST SP 800-53A**.
+
+A key design goal in Phase 2 is to map each technical control to an understandable compliance category such as:
+
+- Access control
+- Transmission security
+- Audit controls
+- Contingency planning
+- Risk detection and response
+
+### Example Control Map
 
 | Tool Check | Category | Related Standard | Evidence Needed | Risk |
 |---|---|---|---|---|
@@ -133,25 +123,79 @@ The main feedback provided by Professor Syed Tanbeer was to:
 
 ---
 
-## Phase 2 Direction
+## Phase 1 Completion
 
-Throughout Phase 2, we plan to address this feedback by:
+During Phase 1, we completed the original project idea, proposal, research, prototype concept, and early implementation. The proposal identified the gap between regulatory requirements and real-world technical implementation in healthcare cybersecurity.
 
-- Expanding the control bank so each check includes a control ID, category, expected value, risk level, remediation, and regulatory mapping.
-- Mapping each technical check to healthcare security areas such as access control, transmission security, audit controls, and contingency planning.
-- Improving the questionnaire so the tool can be used by non-technical healthcare staff as well as IT and security users.
-- Adding a section that explains common cybersecurity risks such as weak passwords, missing MFA, failed login attempts, suspicious IP activity, missing audit logs, and unencrypted backups.
-- Updating GitHub weekly.
+We also reviewed how **HIPAA**, **PHIPA**, **ISO/IEC 27001**, and **NIST SP 800-53A** can support structured evaluation of healthcare security controls.
+
+Our initial Python prototype already evaluates selected controls including:
+
+- MFA
+- TLS/HTTPS
+- Audit logging
+- Encrypted backups
+- Password policy strength
+
+Phase 1 also included scenario testing. In Week 14, the prototype was tested by changing user responses across access control, encryption, audit logging, backup protection, and suspicious activity indicators to see how the system reacted under stronger and weaker compliance conditions.
 
 ---
 
-## Project Purpose
+## Phase 2 Direction
 
-The tool is designed as a lightweight background monitoring and compliance support system for healthcare environments, especially smaller or privately funded healthcare organizations that may not have access to expensive enterprise compliance platforms.
+As we move into Phase 2, the goal is to improve the prototype into a more complete and evidence-based compliance checker.
 
-The system will not collect or store PHI. Instead, it will monitor security-related access events, user activity patterns, configuration evidence, and control status while healthcare professionals access PHI systems.
+Planned improvements include:
 
-Under PHIPA in Ontario, health information custodians must take reasonable steps to protect personal health information against theft, loss, unauthorized use or disclosure, and unauthorized copying, modification, or disposal. NIST SP 800-66 Rev. 2 is also useful because it helps organizations understand HIPAA Security Rule safeguards for protecting ePHI, regardless of the organization’s structure or method of implementation.
+- Expanding the control bank with more detailed fields such as control ID, category, expected value, evidence, risk level, and remediation.
+- Mapping each technical check to healthcare security areas in a more structured way.
+- Improving the questionnaire so it can be used by both healthcare staff and technical users.
+- Adding explanations for common cyber risks such as weak passwords, missing MFA, failed logins, suspicious IP activity, missing logs, and unencrypted backups.
+- Strengthening the system diagram and documentation.
+- Updating GitHub on a weekly basis.
+
+---
+
+## Project Status
+
+The project is currently in the refinement stage. Phase 1 is complete, and Phase 2 focuses on improving the prototype’s usability, documentation, mapping accuracy, and reporting quality.
+
+The next version of the system should be more organized, more evidence-based, and easier to understand from both a compliance and technical perspective.
+
+---
+
+## Features Completed
+
+- Initial project proposal and scope definition.
+- Prototype concept and control bank design.
+- Basic Python compliance logic.
+- Checks for MFA, TLS/HTTPS, audit logging, encrypted backups, and password strength.
+- Weighted risk scoring.
+- HTML reporting.
+- Scenario-based testing.
+
+---
+
+## Features Still in Progress
+
+- Expanded control bank with regulatory mapping.
+- More accurate HIPAA, PHIPA, and NIST alignment.
+- Background monitoring logic.
+- Suspicious activity detection.
+- Improved questionnaire for healthcare and non-technical users.
+- Plain-language reporting improvements.
+- System architecture diagram.
+- Weekly GitHub documentation updates.
+
+---
+
+## Known Issues and Limitations
+
+- The current prototype is still a proof-of-concept and not a production-ready compliance platform.
+- The tool does not collect or store live PHI, so it evaluates security posture rather than actual clinical records.
+- Some control-to-standard mappings still need refinement.
+- Background monitoring may remain limited until Phase 2 is further developed.
+- Testing scenarios may not yet represent every real-world healthcare environment.
 
 ---
 
@@ -186,17 +230,6 @@ Under PHIPA in Ontario, health information custodians must take reasonable steps
 
 ---
 
-## Risks and Challenges
-
-- Difficulty mapping technical checks accurately to HIPAA, NIST, and PHIPA.
-- Scope becoming too large.
-- Background monitoring becoming too complex.
-- GitHub not being updated weekly.
-- Uneven group contribution.
-- Testing scenarios may not be realistic enough.
-
----
-
 ## Collaboration
 
 We are open to collaboration on:
@@ -206,6 +239,16 @@ We are open to collaboration on:
 - Compliance automation tools
 - Healthcare data governance initiatives
 - Security research and proof-of-concepts
+
+---
+
+## Links and Resources
+
+- Repository: [healthcare-compliance-checker](https://github.com/HealthcareCompilanceLab/healthcare-compliance-checker)
+- Project documentation: add your documentation link here
+- System architecture diagram: add your diagram link here
+- Demo video or screenshots: add your demo link here
+- Planning notes: add your planning document link here
 
 ---
 
