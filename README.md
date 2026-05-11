@@ -235,7 +235,7 @@ A key design goal in Phase 2 is to map each technical control to an understandab
 ## Links and Resources
 
 - Repository: [healthcare-compliance-checker](https://github.com/HealthcareCompilanceLab/healthcare-compliance-checker)
-- Project documentation: add your documentation link here
+- (https://www.proquest.com/compscijour/fromDatabasesLayer)
 - System architecture diagram: add your diagram link here
 - Demo video or screenshots: add your demo link here
 - Planning notes: add your planning document link here
