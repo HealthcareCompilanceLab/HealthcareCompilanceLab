@@ -249,10 +249,11 @@ A key design goal in Phase 2 is to map each technical control to an understandab
 ## Links and Resources
 
 - Repository: [healthcare-compliance-checker](https://github.com/HealthcareCompilanceLab/healthcare-compliance-checker)
-- (https://www.proquest.com/compscijour/fromDatabasesLayer)
-- System architecture diagram: add your diagram link here
-- Demo video or screenshots: add your demo link here
-- Planning notes: add your planning document link here
+- ProQuest Computer Science Journals Database: (https://www.proquest.com/compscijour/fromDatabasesLayer)
+- CCOHS Academic: Occupational Health and Safety Information: https://www-ccohs-ca.library.sheridanc.on.ca/ccinfoweb/asp
+- EBSCOhost: Applied Science & Tech Source: https://research-ebsco-com.library.sheridanc.on.ca/c/uombjt/search/advanced/filters?autocorrect=y&db=awh
+- EBSCOhost: Health Source- Consumer Edition: https://research-ebsco-com.library.sheridanc.on.ca/c/uombjt/search/advanced/filters?auth-callid=f6c73317-b31e-418c-bd6a-23ea8ccef0a0&autocorrect=y&db=hch
+- CanLII: Canadian Legal Information Institute: https://www.canlii.org/?origLang=en
 
 ---
 
