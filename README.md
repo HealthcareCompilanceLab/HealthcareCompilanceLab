@@ -246,7 +246,7 @@ A key design goal in Phase 2 is to map each technical control to an understandab
 
 ---
 
-- ## Brainstorming and Planned Improvement: User Repository & Role-Based Access Roles 
+ ## Brainstorming and Planned Improvement: User Repository & Role-Based Access Roles 
 - As part of phase 2 improvememts, we are planning to add a user repository that can differentiate between usernames, user roles, and access permisions. We will not be connecting to a live EHR system or accesssing real PHI. However, we will simulate a SaaS/cloud repository using sample users, roles, and sample access logs in order to keep our project realistic, secure and maintainable.
 
 ## Planned Repository Data 
@@ -300,7 +300,7 @@ The SaaS-based repository will allow the compliance checker to evaluate:
 10. Privileged access monitoring
 -Checks whether IT administrative accessed PHI without accessed PHI without an approved support ticket or documented reason
 
-### Proposed SaaS Repository Architecture 
+## Proposed SaaS Repository Architecture 
 ```text
 [Healthcare Staff / IT Admin / Compliance Officer]
         ↓
