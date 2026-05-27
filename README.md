@@ -278,7 +278,7 @@ The SaaS-based repository will allow the compliance checker to evaluate:
   -Checks whether the user's action matches their assigned permissions
 
 3.Strong password requirements
--Checks whether password policy requirements are being met, such as minimum length, banned password screening, and prevention of weak passwords
+-Checks whether password policy requirements are being met, such as minimum length, banned password screening, special characters 
 
 4.Password update/reset tracking
 -Checks whether password resets and updates are being tracked, especially after a suspected compromise or account recovery event
