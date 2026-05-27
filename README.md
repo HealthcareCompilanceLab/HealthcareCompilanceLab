@@ -246,6 +246,95 @@ A key design goal in Phase 2 is to map each technical control to an understandab
 
 ---
 
+- ## Brainstorming and Planned Improvement: User Repository & Role-Based Access Roles 
+- As part of phase 2 improvememts, we are planning to add a user repository that can differentiate between usernames, user roles, and access permisions. We will not be connecting to a live EHR system or accesssing real PHI. However, we will simulate a SaaS/cloud repository using sample users, roles, and sample access logs in order to keep our project realistic, secure and maintainable.
+
+## Planned Repository Data 
+-User ID
+-Username
+-Assigned Role
+-Department
+-Account status
+-MFA Status
+-Password policy status 
+-Password Reset/Update Date 
+-Training completion status
+-Allowed actions/permissions
+-Failed login count 
+-Last login date 
+-Account review status 
+-Security/audit log retention status 
+
+##Example User Roles 
+The repository will support different user roles, including medical staff, physician, front-desk staff, IT administrator, compliance officer, etc. Each role has different permissions. For example, medical staff may be allowed to view patient records for care purposes, while IT administrators may be allowed to manage users, review audit logs, reset passwords, and configure MFA. However, IT administrators should not access PHI unless there is an approved support reason or ticket. 
+
+##Planned Security Checks 
+The SaaS-based repository will allow the compliance checker to evaluate:
+1. User and role differentation
+   -Checks whether each user has a valid username, role, and department
+   
+2.Role-based access control
+  -Checks whether the user's action matches their assigned permissions
+
+3.Strong password requirements
+   -Checks whether password policy requirements are being met, such as minimum length, banned password screening, and prevention of weak passwords
+
+4.Password update/reset tracking
+-Checks whether password resets and updates are being tracked, especially after a suspected compromise or account recovery event
+
+5.Password reuse prevention 
+-Checks whether users are prevented from resusing recent passwords 
+
+6. MFA enforcement
+-Checks whether MFA is enabled, especially for IT administrators and priveleged accounts
+
+7.Account retention and inactive account review 
+-Checks whether inactive, expired, or terminated accounts are reviewed or disabled
+
+8.Temporary account expiry 
+-Checks whether temporary or contractor accounts have an expiry date 
+
+9. Audit/security log retention
+-Checks whether user activity, failed logins, and administrarive actions are retained for investogation and compliance review
+
+10. Privileged access monitoring
+-Checks whether IT administrative accessed PHI without accessed PHI without an approved support ticket or documented reason
+
+### Proposed SaaS Repository Architecture 
+```text
+[Healthcare Staff / IT Admin / Compliance Officer]
+        ↓
+[Streamlit Compliance Checker Interface]
+        ↓
+[SaaS-Based Cloud User and Role Repository]
+        ↓
+Stores:
+- users
+- roles
+- permissions
+- MFA status
+- password policy status
+- account status
+- training status
+- access/security logs
+- retention settings
+        ↓
+[Compliance Rules Engine]
+        ↓
+Detects:
+- role mismatch
+- missing MFA
+- weak password policy
+- missing password update evidence
+- inactive accounts
+- missing log retention
+- IT admin PHI access without support ticket
+        ↓
+[Risk Scoring System]
+        ↓
+[Plain-Language Report + Technical IT/Admin Report]
+
+```
 ## Links and Resources
 
 - Repository: [healthcare-compliance-checker](https://github.com/HealthcareCompilanceLab/healthcare-compliance-checker)
