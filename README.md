@@ -265,10 +265,11 @@ A key design goal in Phase 2 is to map each technical control to an understandab
 -Account review status 
 -Security/audit log retention status 
 
-##Example User Roles 
+## Example User Roles 
+
 The repository will support different user roles, including medical staff, physician, front-desk staff, IT administrator, compliance officer, etc. Each role has different permissions. For example, medical staff may be allowed to view patient records for care purposes, while IT administrators may be allowed to manage users, review audit logs, reset passwords, and configure MFA. However, IT administrators should not access PHI unless there is an approved support reason or ticket. 
 
-##Planned Security Checks 
+## Planned Security Checks 
 The SaaS-based repository will allow the compliance checker to evaluate:
 1. User and role differentation
    -Checks whether each user has a valid username, role, and department
