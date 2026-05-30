@@ -171,28 +171,35 @@ A key design goal in Phase 2 is to map each technical control to an understandab
 
 ## Features Completed
 
-- Initial project proposal and scope definition.
-- Prototype concept and control bank design.
-- Basic Python compliance logic.
+- Initial project proposal, scope definition, and research direction.
+- Prototype concept and control bank design for healthcare compliance checking.
+- Basic Python compliance logic for evaluating selected security controls.
+- Risk scoring system using weighted control values.
 - Checks for MFA, TLS/HTTPS, audit logging, encrypted backups, and password strength.
-- Weighted risk scoring.
-- HTML reporting.
-- Scenario-based testing.
-
----
+- Attack detection logic for failed login attempts and suspicious IP activity.
+- HTML report generation for compliance findings and remediation guidance.
+- Scenario-based testing with different access control and security settings.
+- Early mapping of security checks to healthcare compliance concepts.
+- Streamlit dashboard version of the checker with a cleaner user interface.
+- Employee login screen with role-based access for company users.
+- Separate audit pages for IT Security, Healthcare Staff, Admin, and Compliance roles.
+- Improved sidebar layout and dashboard styling for better readability.
+- Structured audit scoring and security posture summaries.
+- More organized compliance output with alerts, evidence, and recommendations.
 
 ## Features Still in Progress
 
-- Expanded control bank with regulatory mapping.
-- More accurate HIPAA, PHIPA, and NIST alignment.
-- Background monitoring logic.
-- Suspicious activity detection.
-- Improved questionnaire for healthcare and non-technical users.
-- Plain-language reporting improvements.
-- System architecture diagram.
-- Weekly GitHub documentation updates.
+- Expanded control bank with more detailed regulatory mapping.
+- Stronger alignment with HIPAA, PHIPA, ISO/IEC 27001, and NIST SP 800-53A.
+- Background monitoring logic for access events and security signals.
+- Improved questionnaire design for both technical users and non-technical staff.
+- Better plain-language reporting for healthcare teams.
+- System architecture diagram and documentation visuals.
+- Exportable reports such as PDF or CSV.
+- Charts or trend tracking for repeated audits.
+- Tighter integration between the main checker and the Streamlit sub-repo.
+- Weekly GitHub updates and version tracking.
 
----
 
 ## Known Issues and Limitations
 
