@@ -343,6 +343,9 @@ Detects:
 [Plain-Language Report + Technical IT/Admin Report]
 
 ```
+## Planned Cyber security Awarness Widgets
+The compliance checker will include role-based cybersecurity awarness widgets. These widgets will provide different guidance depending on the user's role. For healthcare staff, widgets will use plain-language explanations and simple reminders about phishing, strong passwords, MFA, secure PHI handling, device protection, and incident reporting. For IT administrators, widgets will provide more technical security awarness and evidence-based findings, including MFA enforcement status, priveldged account risks, suscipous access alerts, audit log retention, backup integrity, and configuration gaps. For compliance officers, widgets will summarize training completion, missing evidence, audit readiness, and overall compliance posture. The goal is to make cyber security awarness practical, role-specficm and understandable while still supporting technical remediation and compliance evidence. 
+
 ## Links and Resources
 
 - Repository: [healthcare-compliance-checker](https://github.com/HealthcareCompilanceLab/healthcare-compliance-checker)
