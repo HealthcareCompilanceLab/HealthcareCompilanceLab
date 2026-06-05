@@ -344,7 +344,10 @@ Detects:
 
 ```
 ## Planned Cyber security Awarness Widgets
-The compliance checker will include role-based cybersecurity awarness widgets. These widgets will provide different guidance depending on the user's role. For healthcare staff, widgets will use plain-language explanations and simple reminders about phishing, strong passwords, MFA, secure PHI handling, device protection, and incident reporting. For IT administrators, widgets will provide more technical security awarness and evidence-based findings, including MFA enforcement status, priveldged account risks, suscipous access alerts, audit log retention, backup integrity, and configuration gaps. For compliance officers, widgets will summarize training completion, missing evidence, audit readiness, and overall compliance posture. The goal is to make cyber security awarness practical, role-specficm and understandable while still supporting technical remediation and compliance evidence. 
+The compliance checker will include role-based cybersecurity awarness widgets. These widgets will provide different guidance depending on the user's role. For healthcare staff, widgets will use plain-language explanations and simple reminders about phishing, strong passwords, MFA, secure PHI handling, device protection, and incident reporting. For IT administrators, widgets will provide more technical security awarness and evidence-based findings, including MFA enforcement status, priveldged account risks, suscipous access alerts, audit log retention, backup integrity, and configuration gaps. For compliance officers, widgets will summarize training completion, missing evidence, audit readiness, and overall compliance posture. The goal is to make cyber security awarness practical, role-specfic and understandable while still supporting technical remediation and compliance evidence. 
+
+## Week 5 Update: Cyber security awarness widgets
+We have added role-based awarness widget features to improve how uses recieve security guidance inside the healthcare data security complaince checker. To improve user expereince, the feature also includes smart session based controls so awarness reminders do not spam the UI. 
 
 ## Links and Resources
 
@@ -366,6 +369,6 @@ The compliance checker will include role-based cybersecurity awarness widgets. T
   <strong>⭐ If you find our work valuable, please consider giving it a star! ⭐</strong>
 </p>
 
-**Last updated:** 2026-05-10
+**Last updated:** 2026-06-05
 
 *Building safer, more compliant healthcare systems, one project at a time.*
