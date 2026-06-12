@@ -348,6 +348,9 @@ The compliance checker will include role-based cybersecurity awarness widgets. T
 ## Week 5 Update: Cyber security awarness widgets
 We have added role-based awarness widget features to improve how uses recieve security guidance inside the healthcare data security complaince checker. To improve user expereince, the feature also includes smart session based controls so awarness reminders do not spam the UI. 
 
+## Week 6 Update - Widget Testing
+This week we tested the cybersecurity awarness widget feature to confirm that reminders display correctly based on user role, session conditions, and current compliance risk within streamlit. The testing confirmed that IT security users receive more technical reminders, such as privledged account risks. We also tested the smart frequency controls to ensure the app avoids overwhelming users with repeated pop-ups. The reminder system currently supports acknowldege and dismiss actions, tracks reminder limits per session, and displays one one targeted awarness nudge at a time. This supports the prpject goal of making cybersecurity awarness practical, role-based and less disruptive for healthcare staff. 
+
 ## Links and Resources
 
 - Repository: [healthcare-compliance-checker](https://github.com/HealthcareCompilanceLab/healthcare-compliance-checker)
