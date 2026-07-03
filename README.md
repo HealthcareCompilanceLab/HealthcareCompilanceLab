@@ -356,6 +356,12 @@ Last week, we began the process of adding contingency planning and recovery read
 
 These checks will help determine whether a healthcare organization is prepared to recover from outages, ransomware incidents, backup failures, or other disruptions that could affect access to healthcare systems and compliance evidence. This feature will use simulated data and sample evidence only (considering we cannot collect or process real PHI). 
 
+## Week 8 Update - Contingency Planning 
+This week, we continued working on the backup, recovery, and contingency planning section of our compliance tool. I've prepared a contingency planning package and send it over to the Technical Lead (Kasi) for review and integration. 
+
+The updated module checks 8 continghency controls and fives a readiness score. In the current test, 4 controls passed while 4 pther controls failed, prompting in a 50% readiness score. This information is very important as it helps demonstrate whether a healthcare organization is prepared for outages, ransomware incidents, backup failuresm or system disruptions. 
+
+
 
 ## Links and Resources
 
