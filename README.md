@@ -361,7 +361,16 @@ This week, we continued working on the backup, recovery, and contingency plannin
 
 The updated module checks 8 contingency controls and gives a readiness score. In the current test, 4 controls passed while 4 other controls failed, prompting in a 50% readiness score. This information is very important as it helps demonstrate whether a healthcare organization is prepared for outages, ransomware incidents, backup failuresm or system disruptions. 
 
+## Week 9 - EHR Saefguards and Infastructure Security 
 
+-Reviewed the current Healthcare Compliance App against revised project plan for phase 2 planning, and brainstormed revisions toegther as a team, along with including professor feedback provided during week 8
+
+- Identified missing or unclear EHR safeguard checks involving firewall protection, antivirus, endpoint security, workstation controls, role-based access, remote access, and encryption at rest.
+- Defined ten proposed EHR safeguard controls, EHR-001 through EHR-010.
+- Prepared system evidence fields for `system_data.json`.
+- Created PASS/FAIL evaluation logic with severity ratings and remediation guidance.
+- Sent the proposed implementation files and integration instructions to the Technical Lead.
+- Next step: integrate, test, and display the EHR safeguards in the Compliance Officer and IT Security pages. Followed by referencing each credited source used for widgets. 
 
 ## Links and Resources
 
