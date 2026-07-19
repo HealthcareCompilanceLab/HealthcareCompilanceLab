@@ -370,7 +370,55 @@ The updated module checks 8 contingency controls and gives a readiness score. In
 - Prepared system evidence fields for `system_data.json`.
 - Created PASS/FAIL evaluation logic with severity ratings and remediation guidance.
 - Sent the proposed implementation files and integration instructions to the Technical Lead.
-- Next step: integrate, test, and display the EHR safeguards in the Compliance Officer and IT Security pages. Followed by referencing each credited source used for widgets. 
+- Next step: integrate, test, and display the EHR safeguards in the Compliance Officer and IT Security pages. Followed by referencing each credited source used for widgets.
+
+## Week 10 – Scenario Testing, Recovery Readiness, and Widget Citations
+
+During Week 10, the Healthcare Data Security Compliance Checker was reviewed and tested against the six healthcare scenarios identified in the revised project plan.
+
+### Work Completed
+
+- Reviewed incident response, data integrity, and backup recovery requirements.
+- Tested the application using compliant and non-compliant simulated system data.
+- Checked whether findings displayed the expected PASS/FAIL result, severity, alert information, and remediation guidance.
+- Reviewed the role-based awareness widgets and added or verified citations to credited regulatory and cybersecurity sources.
+- Documented controls that require additional integration or retesting.
+
+### Healthcare Scenarios Tested
+
+1. **Strong Compliance**
+   - MFA, encryption, logging, secure backups, staff training, and monitoring enabled.
+   - Expected result: mostly compliant findings with low remaining risk.
+
+2. **Weak Access Control**
+   - Missing MFA, weak password controls, failed logins, and role mismatch.
+   - Expected result: high-risk access-control findings and corrective guidance.
+
+3. **Suspicious PHI Access**
+   - Excessive record access, after-hours activity, and unusual access behaviour.
+   - Expected result: suspicious-access alerts and recommendations for investigation.
+
+4. **Poor Training / Human Risk**
+   - Missing phishing training, weak device rules, and unclear incident-reporting procedures.
+   - Expected result: training-readiness failures and staff-awareness recommendations.
+
+5. **Recovery Failure**
+   - Backups present but not encrypted or tested, with no incident-response or disaster-recovery process.
+   - Expected result: high-risk backup, recovery, and contingency-planning findings.
+
+6. **Data Integrity Risk**
+   - Missing audit logs, modification detection, and tamper-evident logging.
+   - Expected result: high-risk integrity and accountability findings.
+
+### Widget Citation Review
+
+The widgets were reviewed to ensure that healthcare security guidance is supported by credited sources. Citations should be displayed within the widget, tooltip, information panel, or a clearly labelled references section.
+
+Suggested citation categories include:
+
+- HIPAA administrative, physical, and technical safeguards
+- PHIPA requirements for protecting personal health information
+- NIST SP 800-53 control families for incident response, contingency planning, audit logging, awareness training, access control, and system integrity
 
 ## Links and Resources
 
